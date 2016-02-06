@@ -9,7 +9,7 @@ import javax.sound.sampled.Clip;
 import javax.swing.JLabel;
 import javax.swing.JSlider;
 
-public class PlayingTimer {
+public class PlayingTimer extends Thread {
 	private DateFormat dateFormater = new SimpleDateFormat("HH:mm:ss");
 	private boolean isRunning = false;
 	private boolean isPause = false;
