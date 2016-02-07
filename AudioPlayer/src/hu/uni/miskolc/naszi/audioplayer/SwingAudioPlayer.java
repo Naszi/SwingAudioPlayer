@@ -160,7 +160,7 @@ public class SwingAudioPlayer extends JFrame implements ActionListener {
 				if (file.isDirectory()) {
 					return true;
 				} else {
-					return file.getName().toLowerCase().endsWith(".wav");
+					return file.getName().toLowerCase().endsWith(".WAV");
 				}
 			}
 		};
